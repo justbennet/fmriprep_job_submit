@@ -26,6 +26,9 @@ job, and by the actual `fmriprep` command.  Save the file.
 
 To run as a test to make sure that all the job submission
 parameters are right, change the account and partition, then
+run the job submission script with the following commands,
+which will submit two test jobs and save the job script and
+the output into the `job_info` directory.
 
 ```
 $ module load python
